@@ -1,0 +1,3 @@
+/home/aligaro/DEVELOPMENT/Funner/build/CMakeFiles/funner.dir
+/home/aligaro/DEVELOPMENT/Funner/build/CMakeFiles/edit_cache.dir
+/home/aligaro/DEVELOPMENT/Funner/build/CMakeFiles/rebuild_cache.dir
