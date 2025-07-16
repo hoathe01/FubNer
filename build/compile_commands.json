@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/aligaro/DEVELOPMENT/Funner/build",
+  "command": "/usr/bin/g++  -I/home/aligaro/DEVELOPMENT/Funner/include -g -o CMakeFiles/funner.dir/src/fibonacci.cpp.o -c /home/aligaro/DEVELOPMENT/Funner/src/fibonacci.cpp",
+  "file": "/home/aligaro/DEVELOPMENT/Funner/src/fibonacci.cpp",
+  "output": "CMakeFiles/funner.dir/src/fibonacci.cpp.o"
+},
+{
+  "directory": "/home/aligaro/DEVELOPMENT/Funner/build",
+  "command": "/usr/bin/g++  -I/home/aligaro/DEVELOPMENT/Funner/include -g -o CMakeFiles/funner.dir/src/main.cpp.o -c /home/aligaro/DEVELOPMENT/Funner/src/main.cpp",
+  "file": "/home/aligaro/DEVELOPMENT/Funner/src/main.cpp",
+  "output": "CMakeFiles/funner.dir/src/main.cpp.o"
+}
+]

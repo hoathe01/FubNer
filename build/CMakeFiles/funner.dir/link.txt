@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/funner.dir/link.d CMakeFiles/funner.dir/src/main.cpp.o CMakeFiles/funner.dir/src/fibonacci.cpp.o -o funner
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/funner.dir/link.d CMakeFiles/funner.dir/src/fibonacci.cpp.o CMakeFiles/funner.dir/src/main.cpp.o -o funner

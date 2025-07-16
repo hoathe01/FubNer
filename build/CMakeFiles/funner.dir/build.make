@@ -72,44 +72,44 @@ include CMakeFiles/funner.dir/flags.make
 CMakeFiles/funner.dir/codegen:
 .PHONY : CMakeFiles/funner.dir/codegen
 
-CMakeFiles/funner.dir/src/main.cpp.o: CMakeFiles/funner.dir/flags.make
-CMakeFiles/funner.dir/src/main.cpp.o: /home/aligaro/DEVELOPMENT/Funner/src/main.cpp
-CMakeFiles/funner.dir/src/main.cpp.o: CMakeFiles/funner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aligaro/DEVELOPMENT/Funner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/funner.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funner.dir/src/main.cpp.o -MF CMakeFiles/funner.dir/src/main.cpp.o.d -o CMakeFiles/funner.dir/src/main.cpp.o -c /home/aligaro/DEVELOPMENT/Funner/src/main.cpp
-
-CMakeFiles/funner.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/funner.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aligaro/DEVELOPMENT/Funner/src/main.cpp > CMakeFiles/funner.dir/src/main.cpp.i
-
-CMakeFiles/funner.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/funner.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aligaro/DEVELOPMENT/Funner/src/main.cpp -o CMakeFiles/funner.dir/src/main.cpp.s
-
 CMakeFiles/funner.dir/src/fibonacci.cpp.o: CMakeFiles/funner.dir/flags.make
 CMakeFiles/funner.dir/src/fibonacci.cpp.o: /home/aligaro/DEVELOPMENT/Funner/src/fibonacci.cpp
 CMakeFiles/funner.dir/src/fibonacci.cpp.o: CMakeFiles/funner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aligaro/DEVELOPMENT/Funner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/funner.dir/src/fibonacci.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funner.dir/src/fibonacci.cpp.o -MF CMakeFiles/funner.dir/src/fibonacci.cpp.o.d -o CMakeFiles/funner.dir/src/fibonacci.cpp.o -c /home/aligaro/DEVELOPMENT/Funner/src/fibonacci.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aligaro/DEVELOPMENT/Funner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/funner.dir/src/fibonacci.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funner.dir/src/fibonacci.cpp.o -MF CMakeFiles/funner.dir/src/fibonacci.cpp.o.d -o CMakeFiles/funner.dir/src/fibonacci.cpp.o -c /home/aligaro/DEVELOPMENT/Funner/src/fibonacci.cpp
 
 CMakeFiles/funner.dir/src/fibonacci.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/funner.dir/src/fibonacci.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aligaro/DEVELOPMENT/Funner/src/fibonacci.cpp > CMakeFiles/funner.dir/src/fibonacci.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aligaro/DEVELOPMENT/Funner/src/fibonacci.cpp > CMakeFiles/funner.dir/src/fibonacci.cpp.i
 
 CMakeFiles/funner.dir/src/fibonacci.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/funner.dir/src/fibonacci.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aligaro/DEVELOPMENT/Funner/src/fibonacci.cpp -o CMakeFiles/funner.dir/src/fibonacci.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aligaro/DEVELOPMENT/Funner/src/fibonacci.cpp -o CMakeFiles/funner.dir/src/fibonacci.cpp.s
+
+CMakeFiles/funner.dir/src/main.cpp.o: CMakeFiles/funner.dir/flags.make
+CMakeFiles/funner.dir/src/main.cpp.o: /home/aligaro/DEVELOPMENT/Funner/src/main.cpp
+CMakeFiles/funner.dir/src/main.cpp.o: CMakeFiles/funner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aligaro/DEVELOPMENT/Funner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/funner.dir/src/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funner.dir/src/main.cpp.o -MF CMakeFiles/funner.dir/src/main.cpp.o.d -o CMakeFiles/funner.dir/src/main.cpp.o -c /home/aligaro/DEVELOPMENT/Funner/src/main.cpp
+
+CMakeFiles/funner.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/funner.dir/src/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aligaro/DEVELOPMENT/Funner/src/main.cpp > CMakeFiles/funner.dir/src/main.cpp.i
+
+CMakeFiles/funner.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/funner.dir/src/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aligaro/DEVELOPMENT/Funner/src/main.cpp -o CMakeFiles/funner.dir/src/main.cpp.s
 
 # Object files for target funner
 funner_OBJECTS = \
-"CMakeFiles/funner.dir/src/main.cpp.o" \
-"CMakeFiles/funner.dir/src/fibonacci.cpp.o"
+"CMakeFiles/funner.dir/src/fibonacci.cpp.o" \
+"CMakeFiles/funner.dir/src/main.cpp.o"
 
 # External object files for target funner
 funner_EXTERNAL_OBJECTS =
 
-funner: CMakeFiles/funner.dir/src/main.cpp.o
 funner: CMakeFiles/funner.dir/src/fibonacci.cpp.o
+funner: CMakeFiles/funner.dir/src/main.cpp.o
 funner: CMakeFiles/funner.dir/build.make
 funner: CMakeFiles/funner.dir/compiler_depend.ts
 funner: CMakeFiles/funner.dir/link.txt

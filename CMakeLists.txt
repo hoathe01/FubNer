@@ -4,6 +4,10 @@ cmake_minimum_required(VERSION 3.10)
 project(funner)
 
 # add the executable
-add_executable(funner src/main.cpp src/fibonacci.cpp)
+# Automatically find all source files
+file(GLOB SOURCES "src/*.cpp")
+
+# add the executable
+add_executable(funner ${SOURCES})
 
 target_include_directories(funner PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
